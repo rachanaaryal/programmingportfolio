@@ -1,0 +1,119 @@
+{
+    "messages": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "good morning",
+                "good afternoon",
+                "good evening"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What can I do for you?",
+                "Hello! How may I assist you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later",
+                "quit",
+                "exit"
+            ],
+            "responses": [
+                "Goodbye! Have a great day!",
+                "Bye! Come back if you need help!",
+                "See you later! Take care!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "thanks a lot",
+                "thank you so much"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "Anytime! Feel free to ask more questions!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "what can you do",
+                "features",
+                "commands"
+            ],
+            "responses": [
+                "I can help you with:\n- Basic conversations\n- Telling the time\n- Answering questions about college\nJust type your question!"
+            ]
+        },
+        {
+            "tag": "college_info",
+            "patterns": [
+                "college timings",
+                "college hours",
+                "when does college open",
+                "college schedule"
+            ],
+            "responses": [
+                "The college is typically open from 8:00 AM to 5:00 PM on weekdays.",
+                "College hours are Monday to Friday, 8:00 AM to 5:00 PM."
+            ]
+        },
+        {
+            "tag": "cafeteria",
+            "patterns":[
+                "what kind of beverages are available"
+            ],
+            "responses":[
+                "You can get all kinds of coffee, soda, bakery items and tea."
+            ]
+        },
+        {
+            "tag": "cafe",
+            "patterns":[
+                "when will the cafe open",
+                "is the cafe open 24-7",
+                "cafe timings"
+            ],
+            "responses":[
+                "Cafe is open from 6AM to 6PM on all days of the week."
+            ]
+        },
+        {
+            "tag": "library",
+            "patterns": [
+                "library hours",
+                "library timings",
+                "when does library open",
+                "library schedule"
+            ],
+            "responses": [
+                "The library is open from 9:00 AM to 9:00 PM on weekdays, and 9:00 AM to 5:00 PM on weekends."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "who are you",
+                "what should I call you"
+            ],
+            "responses": [
+                "I'm Chameli, your friendly student assistant!",
+                "My name is Chameli, and I'm here to help you!",
+                "I'm Chameli! How can I assist you today?"
+            ]
+        }
+    ]
+}
